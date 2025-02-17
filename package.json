@@ -1,0 +1,21 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "npx cypress open",
+    "run": "npx cypress run --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "cypress-xpath": "^2.0.1",
+    "neat-csv": "7.0.0"
+  },
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "xlsx": "^0.18.5"
+  }
+}

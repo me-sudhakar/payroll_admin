@@ -1,0 +1,67 @@
+{
+    "requiredModule": "Payslip Templates",
+    "PayslipDetails": {
+        "Organisation": "DeMarvel Group of Companies",
+        "Entity": "Wayne Enterprises",
+        "TemplateName": "Testing2"
+    },
+    "EmployeeFields": {
+        "employeeFields": [
+            "Employee ID",
+            "Date Of Joining",
+            "Name",
+            "Gender"
+        ]
+    },
+    "AttendanceFields": {
+        "AttendanceTags": [
+            "Working Days",
+            "Paid Days",
+            "LOP",
+            "Partial Pay Days"
+        ]
+    },
+    "LeaveDetails": {
+        "leaveToggle": "No",
+        "selectAll": "Yes",
+        "leaveTags": [
+            "Annual",
+            "Casual"
+        ]
+    },
+    "TaxDetails": {
+        "TaxDetails": "Yes",
+        "YTDTaxDetails": "No",
+        "HRATaxDetails": "Yes"
+    },
+    "SalaryStructure": {
+        "Allowances": {
+            "SwitchAllowanceToggle":"Yes",
+            "AllowanceYTD": "No",
+            "SelectAlltheAllowances": "Yes",
+            "ReqAllowances": [
+                "Basic",
+                "House Rent Allowance"
+            ]
+        },
+        "Benefits": {
+            "SwitchBenefitsToggle":"No",
+            "BenefitsYTD": "Yes",
+            "SelectAlltheBenefits": "Yes",
+            "reqBenefits": [
+                "Food Coupon",
+                "House Rent Allowance"
+            ]
+        },
+        "Deductions": {
+            "SwitchDeductionsToggle":"No",
+            "SelectAlltheDeductions": "No",
+            "reqDeductions": [
+                "Income Tax"
+            ],
+            "DeductionsYTD": "Yes"
+        }
+    },
+    "ShowMasterDatainAllowances": "Yes",
+    "PageSize": "A5"
+}

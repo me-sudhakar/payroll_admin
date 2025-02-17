@@ -1,0 +1,120 @@
+{
+    "login": {
+        "url": "https://settings-comics.akriviahcm.io/login",
+        "userName": "cadmin",
+        "password": "Master@1234",
+        "Reistaging": {
+            "url": "https://settings.reistaging.akriviahcm.com/login",
+            "userName": "Rsmaster",
+            "password": "h7qaZg7D093EKi8bG&1"
+        },
+        "UAT": {
+            "url": "https://settings.uat.akriviahcm.com/login",
+            "userName": "Rsmaster",
+            "password": "Rsmaster@123456"
+        },
+        "comics": {
+            "url": "https://settings-comics.akriviahcm.io/login",
+            "userName": "cadmin",
+            "password": "Master@1234"
+        }
+    },
+    "org": {
+        "organisation": "Raghu Educational Institutions",
+        "entity": "Raghu Institute of Technology",
+        "employeeID": "5200"
+    },
+    "requiredModule": {
+        "subModule1": "Financial Year",
+        "subModule2": "Pay Periods",
+        "subModule3": "Pay Modes",
+        "subModule4": "Pay Cycles",
+        "subModule5": "Pay Cycle Linking",
+        "subModule6": "Short Tag Mapping",
+        "subModule7": "Salary Components",
+        "subModule8": "Paybands",
+        "subModule9": "Standard Settings",
+        "subModule10": "Employee Pay Scale",
+        "subModule11": "Structure Selection",
+        "subModule12": "Salary Structures",
+        "subModule13": "Payslip Templates",
+        "subModule14": "Run Process Summary",
+        "subModule15": "Payslip Groups",
+        "subModule16": "Loans & Advances",
+        "subModule17": "Approval Flow",
+        "subModule18": "VPF Settings",
+        "subModule19": "Custom Field Mapping",
+        "subModule20": "Ad hoc Configurations",
+        "subModule21": "Accrual Configuration",
+        "subModule22": "CPF Settings",
+        "subModule23": "Form Field Mapping",
+        "subModule24": "Salary Revision Configurations",
+        "subModule25": "VPF New Settings",
+        "subModule26": "Tax Sections",
+        "subModule27": "Tax Sub Sections",
+        "subModule28": "Tax Regimes",
+        "subModule29": "Tax Sub Section Groups",
+        "subModule30": "Statutory Overrides",
+        "subModule31": "Tax Rebate",
+        "subModule32": "GL Code Configuration",
+        "subModule33": "Groups Configuration",
+        "subModule34": "Templates Configuration",
+        "subModule35": "FBP Configurations 2.0",
+        "subModule36": "Form 24Q",
+        "subModule37": "Previous Salary",
+        "subModule38": "Tax Bulk Upload",
+        "subModule39": "Settlement Configuration",
+        "subModule40": "Recovery Categories",
+        "subModule41": "Settlement Letters",
+        "subModule42": "Service Tenure",
+        "subModule43": "Pay Matrix Groups",
+        "subModule44": "Pay Matrices",
+        "subModule45": "Ticket Types",
+        "subModule46": "Ticket Provisions",
+        "subModule47": "Eligible Amounts"
+    },
+    "paySlipTemplateData": {
+        "paySlipName": "Automation 13",
+        "employeeFields": [
+            "Employee ID",
+            "Date Of Joining",
+            "Name",
+            "Gender",
+            "Working Days",
+            "Paid Days",
+            "LOP",
+            "Partial Pay Days"
+        ],
+        "LeaveDetails": "Yes",
+        "leaveTags": [
+            "Annual",
+            "Casual"
+        ],
+        "TaxDetails": "Yes",
+        "YTDTaxDetails": "Yes",
+        "HRATaxDetails": "Yes",
+        "_comment1": "----------------------------Allowance details------------------------------------------------",
+        "AllowanceYTD": "Yes",
+        "SelectAlltheAllowances": "No",
+        "ReqAllowances": [
+            "Basic",
+            "House Rent Allowance"
+        ],
+        "_comment2": "----------------------------Benefits details------------------------------------------------",
+        "BenefitsYTD": "Yes",
+        "SelectAlltheBenefits": "No",
+        "reqBenefits": [
+            "Food Coupon",
+            "House Rent Allowance"
+        ],
+        "_comment3": "----------------------------Deduction details------------------------------------------------",
+        "SelectAlltheDeductions": "No",
+        "reqDeductions": [
+            "Income Tax"
+        ],
+        "DeductionsYTD": "Yes",
+        "_comment4": "----------------------------Show Master Data in Allowances ------------------------------------------------",
+        "ShowMasterDatainAllowances": "Yes",
+        "PageSize": "A5"
+    }
+}

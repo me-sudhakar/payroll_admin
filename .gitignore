@@ -1,0 +1,35 @@
+# Node modules (installed dependencies)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Cypress output (screenshots & videos)
+cypress/screenshots/
+cypress/videos/
+
+# Cypress test reports (if using mochawesome or allure)
+cypress/reports/
+mochawesome-report/
+allure-results/
+allure-report/
+
+# Cypress cache
+.cypress_cache/
+CypressDownloads/
+
+# Environment-specific files
+.env
+.env.local
+.env.*.local
+
+# VS Code settings (if using VS Code)
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs & Debugging
+cypress/logs/
+debug.log
+npm-debug.log
